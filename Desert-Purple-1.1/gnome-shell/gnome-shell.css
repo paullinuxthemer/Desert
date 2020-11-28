@@ -66,7 +66,7 @@ stage {
 .modal-dialog {
 
   color: #e2e0db;
-  background-color:rgba(44,43,40, 0.6);
+  background-color:rgba(44,43,40, 0.9);
   border: 1px solid #2c2b28; }
 
 .app-folder-dialog .folder-name-container .edit-folder-button, .button {
@@ -226,7 +226,7 @@ StEntry {
   color: #e2e0db;
   background-color: rgba(44,43,40,0.3);
   border-color: #2c2b28;
-  selection-background-color: #614f69;
+  selection-background-color: #4e646a;
   selected-color: #e2e0db; }
   
 StEntry:focus {
@@ -442,7 +442,7 @@ box-shadow: 0 3px 12px 1px rgba(0, 0, 0, 0.5);
   
 .popup-menu-item.selected {
 
-  background-color: #614f69;/*#614f69;*//*------------>Hovering in menu's*/
+  background-color: #614f69;/*#a2493a;*//*------------>Hovering in menu's*/
   color: #e2e0db;
   text-shadow: 0 1px #2c2b28;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);  }
@@ -1051,7 +1051,7 @@ box-shadow: 0 3px 12px 1px rgba(0, 0, 0, 0.5);
   margin-left: 0;
   margin-right: 0;
  color: #e2e0db;
-  background-color:rgba(44,43,40,0.3);
+  background-color:rgba(44,43,40,0.96);
   border-color: #2c2b28;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
   text-shadow: 0 1px rgba(0, 0, 0, 0.2);
@@ -1637,7 +1637,7 @@ box-shadow: 0 3px 12px 1px rgba(0, 0, 0, 0.5);
 /*((((((((((((((( Top Bar))))))))))))))) */
 
 #panel {
-  background-color: rgba(44,43,40,0.90);
+  background-color: rgba(44,43,40,0.96);
   font-weight: bold;
   height: 1.86em;
   font-feature-settings: "tnum"; }
@@ -2164,7 +2164,7 @@ box-shadow: 0 3px 12px 1px rgba(0, 0, 0, 0.5);
 
 /* On-screen Keyboard */
 #keyboard {
-  background-color: rgba(44,43,40, 0.7);
+  background-color: rgba(44,43,40, 0.92);
   box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.1); }
   #keyboard .page-indicator {
     padding: 6px; }
@@ -2178,8 +2178,8 @@ box-shadow: 0 3px 12px 1px rgba(0, 0, 0, 0.5);
 
 .keyboard-key {
   color: #e2e0db;
-  background-color:rgba(44,43,40, 0.8);
-  border-color: #2c2b28;
+  background-color:rgba(44,43,40, 0.7);
+  border-color: #151515;/*#2c2b28;*/
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
   text-shadow: 0 1px rgba(0, 0, 0, 0.2);
   icon-shadow: 0 1px rgba(0, 0, 0, 0.2);
@@ -2197,14 +2197,15 @@ box-shadow: 0 3px 12px 1px rgba(0, 0, 0, 0.5);
   .keyboard-key:hover, .keyboard-key:checked {
     color: #e2e0db;
     background-color:rgba(44,43,40, 0.9);
-    border-color: #2c2b28;
+    border-color: #151515;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
     text-shadow: 0 1px rgba(0, 0, 0, 0.2);
     icon-shadow: 0 1px rgba(0, 0, 0, 0.2); }
   .keyboard-key:active {
     color: #e2e0db;
-    background-color:rgba(44,43,40, 1);
-    border-color: #2c2b28;
+    background-color:rgba(20,19,16,1);
+    /*background-color:rgba(44,43,40, 1);*/
+    border-color: #151515;
     text-shadow: none;
     icon-shadow: none;
     box-shadow: none; }
@@ -2214,43 +2215,43 @@ box-shadow: 0 3px 12px 1px rgba(0, 0, 0, 0.5);
     border-color: rgba(0, 0, 0, 0.7); }
   .keyboard-key.default-key {
     color: #e2e0db;
-    background-color: rgba(50,49,46, 0.96);
-     border-color: #2c2b28;
+    background-color: rgba(54,53,50,0.96);
+     border-color: #151515;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
     text-shadow: 0 1px rgba(0, 0, 0, 0.2);
     icon-shadow: 0 1px rgba(0, 0, 0, 0.2); }
     .keyboard-key.default-key:hover, .keyboard-key.default-key:checked {
       color: #e2e0db;
       background-color: rgba(50,49,46, 1);
-      border-color: #2c2b28;
+      border-color: #151515;
       box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
       text-shadow: 0 1px rgba(0, 0, 0, 0.2);
       icon-shadow: 0 1px rgba(0, 0, 0, 0.2); }
     .keyboard-key.default-key:active {
       color: #e2e0db;
-     background-color:rgba(44,43,40, 1);
-      border-color: #2c2b28;
+     background-color:rgba(20,19,16,1);
+      border-color: #151515;
       text-shadow: none;
       icon-shadow: none;
       box-shadow: none; }
   .keyboard-key.enter-key {
      color: #e2e0db;
     background-color:rgba(55,54,50, 0.8);
-    border-color: #2c2b28;
+    border-color: #151515;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
     text-shadow: 0 1px rgba(0, 0, 0, 0.2);
     icon-shadow: 0 1px rgba(0, 0, 0, 0.2); }
     .keyboard-key.enter-key:hover, .keyboard-key.enter-key:checked {
       color: #e2e0db;
       background-color:rgba(55,54,50,0.9);
-     border-color: #2c2b28;
+     border-color: #151515;
       box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
       text-shadow: 0 1px rgba(0, 0, 0, 0.2);
       icon-shadow: 0 1px rgba(0, 0, 0, 0.2); }
     .keyboard-key.enter-key:active {
       color: #e2e0db;
       background-color:rgba(55,54,50,1);
-      border-color: #636363;
+      border-color: #151515;
       text-shadow: none;
       icon-shadow: none;
       box-shadow: none; }
@@ -2262,7 +2263,7 @@ box-shadow: 0 3px 12px 1px rgba(0, 0, 0, 0.5);
 .keyboard-subkeys {
   color: #e2e0db;
   -arrow-border-radius: 10px;
-  -arrow-background-color: rgba(32, 32, 32, 0.96);
+  -arrow-background-color: rgba(44,43,40, 0.96);
   -arrow-border-width: 1px;
   -arrow-border-color: rgba(55, 55, 55, 0.96);
   -arrow-base: 20px;
@@ -2271,7 +2272,7 @@ box-shadow: 0 3px 12px 1px rgba(0, 0, 0, 0.5);
   .keyboard-subkeys .keyboard-key {
     color: #e2e0db;
     background-color: #3c3c3c;
-    border-color: #2b2b2b;
+    border-color: #151515;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
     text-shadow: 0 1px rgba(0, 0, 0, 0.2);
     icon-shadow: 0 1px rgba(0, 0, 0, 0.2);
@@ -2284,14 +2285,14 @@ box-shadow: 0 3px 12px 1px rgba(0, 0, 0, 0.5);
     .keyboard-subkeys .keyboard-key:hover, .keyboard-subkeys .keyboard-key:checked {
       color: #e2e0db;
       background-color: #424242;
-      border-color: #2b2b2b;
+      border-color: #151515;
       box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
       text-shadow: 0 1px rgba(0, 0, 0, 0.2);
       icon-shadow: 0 1px rgba(0, 0, 0, 0.2); }
     .keyboard-subkeys .keyboard-key:active {
       color: #e2e0db;
       background-color: #2d2d2d;
-      border-color: #191919;
+      border-color: #151515;
       text-shadow: none;
       icon-shadow: none;
       box-shadow: none; }
